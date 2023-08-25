@@ -1,0 +1,154 @@
+header{
+    background-color: #023C1A;
+    background-image: linear-gradient(to top, #033E1B 30%, #4D8A6B,#239355);
+    color: white;
+    text-align: center;
+    margin: -30px;
+    width: auto;
+    height: 250px;
+    font-family: 'Bebas Neue', sans-serif;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.397); 
+         
+}
+
+
+header > h1{
+    padding-top: 41px;
+    font-size: 2.7em;
+    font-weight: 700;
+    letter-spacing: -3px;   
+}
+
+header > p{
+    margin-bottom: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -35px;
+}
+
+nav{
+    text-align:left;
+    
+}
+
+nav > a{
+    color: rgb(122, 211, 149);
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+nav > a:hover{
+    text-decoration: none;
+    background-color: #239355;
+    border-radius: 5px;
+}
+#primeiro{
+    margin-left: 25px;
+}  
+body{
+    background-color: #E7E5C1;
+}
+main{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 30px;       
+    background-color: white;
+    height: auto;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.397);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+     
+} 
+@font-face {
+    font-family: 'MinhaFontePersonalizada';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('woff2'),
+         url(pacote-projeto-d010/fontes/idroid.otf) format('woff');
+
+    
+}
+main > h2{
+    font-family: 'MinhaFontePersonalizada', sans-serif;
+    font-weight:lighter;
+    color:#4D8A6B;
+    font-size: 30px;
+    margin-left: 4%;
+    padding-top: 2%;
+        
+}
+
+p{
+    text-indent: 40px; 
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    margin-left: 4%;
+    font-family: 'MinhaFontePersonalizada', sans-serif;
+    background-image: linear-gradient(to right, #bee0cc 30%, #4d8a6b3a,white);
+    color: #4D8A6B;
+    padding-left: 15px;
+}
+.star::before {
+    content: "✔"; 
+    margin-right: 5px; 
+    list-style-type: none;
+    
+}
+
+.star{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ultima{
+    background-color: #8fe2b881;
+    border-radius: 10px;
+    margin: 50px;
+}
+#ultimo{
+    padding-bottom: 20px;
+}
+
+#ultimoh3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    background-image: none;
+    background-color: rgba(68, 212, 68, 0.644);
+    margin-left: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 12px;
+    text-indent: 20px;
+
+}
+
+footer{
+    background-color: #033E1B;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;    
+}
+footer > p{
+    text-align: center;
+    color: white;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    
+}
+
+/* Estilos para tornar a imagem adaptativa */
+.adaptive-image {
+    max-width: 100%; /* A imagem não pode ser maior do que o seu contêiner */
+    max-height: 100%; /* A imagem não pode ser maior do que a altura do contêiner */
+    height: auto; /* Mantém a proporção original da imagem */
+    width: auto; /* Mantém a proporção original da imagem */
+}
